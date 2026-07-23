@@ -648,6 +648,13 @@ const menuItems = computed(() => {
       ],
     },
     {
+      name: 'ExternalAppDashboard',
+      label: t('SIDEBAR.EXTERNAL_APP_DASHBOARD'),
+      icon: 'i-lucide-layout-dashboard',
+      to: accountScopedRoute('external_app_dashboard'),
+      activeOn: ['external_app_dashboard'],
+    },
+    {
       name: 'Reports',
       label: t('SIDEBAR.REPORTS'),
       icon: 'i-lucide-chart-spline',
